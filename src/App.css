@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar width */
+  height: 0; /* Remove scrollbar height */
+}
+
+.account-activation-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.account-activation-container p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.activation-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.refresh-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.refresh-button:hover {
+  background-color: #0056b3;
+}
+
+.request-activation-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.request-activation-button:hover {
+  background-color: #218838;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
+
+.form-container {
+  max-height: 700px; 
+  overflow-y: auto;
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+input, select, button {
+  width: 100%;
+  margin-top: 14px;
+  height: 50px;
+  border-radius: 5px;
+  padding-right: 10px;
+  text-align: end;
+  background-color: #F1F1F1;
+}
+
+button {
+  background-color: #BD6939;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+button[disabled] {
+  background-color: #ccc;
+}
