@@ -1,0 +1,65 @@
+h1, h2, h3, h4, h5, h6, p, div, button, strong{
+    font-family: "Tajawal";
+  }
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.account-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.account-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.account-container p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+}
+
+.sign-out-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #BD6939;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sign-out-button:hover {
+  background-color: #BD6939;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  .account-container {
+      padding: 10px;
+  }
+
+  .account-container h1 {
+      font-size: 20px;
+  }
+
+  .account-container p {
+      font-size: 16px;
+  }
+}
