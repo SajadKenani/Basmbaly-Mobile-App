@@ -1,0 +1,71 @@
+.coming-orders-container {
+    padding: 20px;
+  }
+  
+  .coming-orders-list {
+    margin: 20px 0;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f4f4f4;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .action-button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .accept-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #555555;
+    color: white;
+  }
+  
+  .save-button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+  }
+  
+  h1,h2,h3,h4,h5,h6,p,button, tr{
+    font-family: "Tajawal";
+  }
